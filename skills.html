@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Emily Portfolio</title>
+    <meta name="description" content="Technical skills and expertise of Emily in MERN stack development including React, Node.js, MongoDB, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Emily</a>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link active">Skills</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="resume.html" class="nav-link">Resume</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Skills Section -->
+    <section class="page-section">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">My <span class="text-gradient">Skills</span></h1>
+                <div class="title-underline"></div>
+                <p class="page-description">Skill Level: Beginner improving</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h2 class="category-title">Frontend</h2>
+                    <div class="skills-list">
+                        <span class="skill-badge">HTML5</span>
+                        <span class="skill-badge">CSS3</span>
+                        <span class="skill-badge">JavaScript (ES6)</span>
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Hooks</span>
+                        <span class="skill-badge">Components</span>
+                        <span class="skill-badge">Props</span>
+                        <span class="skill-badge">State</span>
+                        <span class="skill-badge">Bootstrap</span>
+                        <span class="skill-badge">Tailwind (basic)</span>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h2 class="category-title">Backend</h2>
+                    <div class="skills-list">
+                        <span class="skill-badge">Node.js (Beginner)</span>
+                        <span class="skill-badge">Express.js</span>
+                        <span class="skill-badge">Routing basics</span>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="skill-category">
+                    <h2 class="category-title">Database</h2>
+                    <div class="skills-list">
+                        <span class="skill-badge">MongoDB (Basics)</span>
+                        <span class="skill-badge">Mongoose</span>
+                        <span class="skill-badge">Schemas</span>
+                        <span class="skill-badge">CRUD</span>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h2 class="category-title">Tools</h2>
+                    <div class="skills-list">
+                        <span class="skill-badge">Git & GitHub</span>
+                        <span class="skill-badge">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
